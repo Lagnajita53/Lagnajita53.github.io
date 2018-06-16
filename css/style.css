@@ -16,7 +16,7 @@
  hr {
    max-width: 50px;
    border-width: 3px;
-   border-color: cyan;
+   border-color: #369ce9e0;
  }
  
  .typewrite {
@@ -650,7 +650,7 @@
 .front__text .front__text-desc {
   font-weight: 300;
   font-size: 0.9em;
-  color: cyan;
+  color: #369ce9e0;
   letter-spacing: 0.3px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -666,7 +666,7 @@
   bottom: 0.1%;
   height: 50px;
   width: 300px;
-  background: #ff3b3f;
+  background: #369ce9e0;
   font-family: "Roboto", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
