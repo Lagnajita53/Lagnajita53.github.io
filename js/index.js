@@ -99,7 +99,27 @@ c.height = window.innerHeight;
 
 
 
-var code = "~[!#.,-;printf(hello world){=|}/&6*]+";
+var code = '#include <iostream>\
+using namespace std;\
+int main()\
+{ \
+   string s1,s2,s3,s4,s5;\
+   s1="\xF0\x9F\x98\x83";\
+   s2="\xF0\x9F\x92\x90";\
+   s3="\xF0\x9F\x8E\x89";\
+   s4="\xF0\x9F\x8E\x8A";\
+   s5="\xF0\x9F\x98\x98";\
+   cout<<"Happyyy Birthdayyy Santosh!!!"+s1+" "+s1+" "+s1<<endl;\
+    cout<<"I wish you get every happiness that you deserve "+s1+" "+s1+" "+s1<<endl;\
+    cout<<"Happy 23rd b\'day ";\
+    short i=23;\
+    while(i--)\
+    {\
+	cout<<s5<<" ";\
+    }\
+    cout<<endl;\
+    return 0;\
+}';
 chinese = code.split("");
 
 var font_size =10;
