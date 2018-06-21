@@ -786,3 +786,7 @@ color: #0077B5;
   color: #AA2200;
 }
 
+i:hover{
+  color: #ffee10;
+  text-shadow: 0 0 35px #10b3ff;
+}
